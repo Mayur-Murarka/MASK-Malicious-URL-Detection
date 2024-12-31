@@ -6,17 +6,13 @@ from src.pipeline.predict_pipeline import PredictPipeline
 
 app = Flask(__name__)
 
-# get the path to the models folder
 model_path = "./artifacts/Best Model"
 
-# load the model
 with open(os.path.join(model_path, 'Decision Tree.pkl'), 'rb') as f:
     model = pickle.load(f)
 
-# print(model)
 pred = PredictPipeline()
 
-# Enable CORS with all origins
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 @app.route("/", methods=['GET'])
@@ -34,11 +30,9 @@ def predict():
 
     transform_url = transform_url.reshape(1, -1)
 
-    # print("transform_url" , transform_url)
 
     prediction = model.predict(transform_url)
     
-    # 'benign', 'defacement','phishing','malware'
     if(prediction == 0):
         res = 'benign'
     elif(prediction == 1):

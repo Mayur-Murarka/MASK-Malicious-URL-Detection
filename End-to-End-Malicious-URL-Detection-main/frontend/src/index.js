@@ -4,7 +4,6 @@ import './index.css';
 import { ColorModeScript, ChakraProvider, theme } from '@chakra-ui/react';
 import App from './App';
 import 'react-toastify/dist/ReactToastify.css';
-// import ParticlesComponent from './components/Particle';
 import Particle from './components/Particle.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

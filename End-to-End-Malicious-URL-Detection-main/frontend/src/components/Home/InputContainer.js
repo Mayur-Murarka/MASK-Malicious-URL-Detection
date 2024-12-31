@@ -38,7 +38,6 @@ function InputContainer() {
     }
 
     const apiURL = predictURL;
-    // console.log(apiURL);
 
     try {
       setLoading(true);
