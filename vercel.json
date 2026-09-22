@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "cd End-to-End-Malicious-URL-Detection-main/frontend && npm install && npm run build",
+  "outputDirectory": "End-to-End-Malicious-URL-Detection-main/frontend/build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
