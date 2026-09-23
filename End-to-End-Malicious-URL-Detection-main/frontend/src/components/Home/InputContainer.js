@@ -1663,7 +1663,7 @@ function InputContainer() {
       >
         <HStack spacing={2}>
           <Box w="6px" h="6px" borderRadius="full" bg="cyan.400" />
-          <Text>MASK Autonomous Zero-Trust Threat Intelligence Radar</Text>
+          <Text>MASK - Malicious URL Detection Radar</Text>
         </HStack>
         <Text fontSize="2xs" color="gray.400">
           Powered by Multi-Class Decision Heuristics & Reputation Scoring

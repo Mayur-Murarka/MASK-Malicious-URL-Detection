@@ -1,33 +1,37 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mayur-Murarka/End-to-End-Malicious-URL-Detection-main/main/docs/screenshots/hero_view.png" alt="MASK ThreatRadar Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/Mayur-Murarka/End-to-End-Malicious-URL-Detection-main/main/docs/screenshots/hero_view.png" alt="MASK Malicious URL Detection Banner" width="100%" />
 </p>
 
-<h1 align="center">🛡️ MASK // Autonomous Zero-Trust Threat Intelligence & Neural Malicious URL Detection</h1>
+<h1 align="center">🛡️ MASK - Malicious URL Detection</h1>
 
 <p align="center">
-  <b>A state-of-the-art cybersecurity command center designed to analyze, score, and neutralize malicious URLs, zero-day phishing campaigns, ransomware droppers, and deceptive web properties in real time.</b>
+  <b>Autonomous Zero-Trust Neural Threat Intelligence Platform for Real-Time Malicious URL, Phishing & Malware Detection.</b>
 </p>
 
 <p align="center">
-  <a href="#-key-features"><img src="https://img.shields.io/badge/Security-Zero--Trust-0ea5e9?style=for-the-badge&logo=shield" alt="Zero Trust" /></a>
-  <a href="#-machine-learning--heuristics"><img src="https://img.shields.io/badge/Model-Multi--Class%20Neural-6366f1?style=for-the-badge&logo=tensorflow" alt="Multi-Class Model" /></a>
+  <a href="https://end-to-end-malicious-url-detection.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-Vercel%20Production-0ea5e9?style=for-the-badge&logo=vercel" alt="Live Demo on Vercel" /></a>
+  <a href="#-machine-learning--heuristics"><img src="https://img.shields.io/badge/Engine-Neural%20ML%20%2B%20Heuristics-6366f1?style=for-the-badge&logo=tensorflow" alt="Neural ML" /></a>
   <a href="#-tech-stack"><img src="https://img.shields.io/badge/Frontend-React%2018%20%7C%20Chakra%20UI-38bdf8?style=for-the-badge&logo=react" alt="React" /></a>
-  <a href="#-tech-stack"><img src="https://img.shields.io/badge/Backend-Python%20%7C%20Flask-10b981?style=for-the-badge&logo=python" alt="Python Flask" /></a>
-  <a href="#-deployment"><img src="https://img.shields.io/badge/Deployment-Vercel%20Ready-white?style=for-the-badge&logo=vercel&logoColor=black" alt="Vercel" /></a>
+  <a href="#-tech-stack"><img src="https://img.shields.io/badge/Backend-Python%20Flask-10b981?style=for-the-badge&logo=python" alt="Python Flask" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License: MIT" /></a>
 </p>
 
 ---
 
+## 🌐 Live Production Application
+👉 **Official Website:** [https://end-to-end-malicious-url-detection.vercel.app](https://end-to-end-malicious-url-detection.vercel.app)
+
+---
+
 ## 📑 Table of Contents
 - [Executive Overview](#-executive-overview)
-- [Visual Tour & Screenshots](#-visual-tour--screenshots)
+- [Visual Tour & Live Screenshots](#-visual-tour--live-screenshots)
 - [Key Features](#-key-features)
 - [Industry Benchmark Comparison](#-industry-benchmark-comparison)
 - [Machine Learning & Heuristic Pipeline](#-machine-learning--heuristic-pipeline)
 - [System Architecture](#-system-architecture)
 - [Project Directory Structure](#-project-directory-structure)
-- [Getting Started & Installation](#-getting-started--installation)
+- [Getting Started & Local Setup](#-getting-started--local-setup)
 - [API Reference](#-api-reference)
 - [Deployment Guide](#-deployment-guide)
 - [License](#-license)
@@ -36,7 +40,7 @@
 
 ## 🌟 Executive Overview
 
-**MASK ThreatRadar** is an end-to-end cyber threat intelligence suite engineered to provide instantaneous security visibility into web domains, hyperlinks, and IP addresses. 
+**MASK — Malicious URL Detection** is an industry-standard cybersecurity intelligence suite engineered to provide instantaneous security visibility into web domains, hyperlinks, and IP addresses. 
 
 Unlike traditional URL scanners that solely rely on slow or stale blacklists, **MASK** combines:
 1. **Multi-Class Machine Learning & Decision Heuristics** capable of categorizing URLs into **Benign**, **Phishing**, **Malware**, and **Defacement**.
@@ -47,40 +51,54 @@ Unlike traditional URL scanners that solely rely on slow or stale blacklists, **
 
 ---
 
-## 📸 Visual Tour & Screenshots
+## 📸 Visual Tour & Live Screenshots
 
-### 1. Minimalist Floating Navbar & Hero Omnibar
-> Sleek floating command console with live protocol indicators (`HTTPS` with padlock vs `HTTP` plaintext), clipboard paste shortcut, and pre-configured quick sample capsules.
+### 1. Live Web Application Interface & Command Console
+> Futuristic floating cyber command HUD featuring real-time protocol detection (`HTTPS` padlock vs unencrypted `HTTP`), instant clipboard paste omnibar, live threat metrics, and one-click quick sample payloads.
 
-![Hero View](docs/screenshots/hero_view.png)
-
----
-
-### 2. Verified Clean Domain Result (0-100 Risk Gauge)
-> Analyzes clean domains, calculates risk indices (`2/100`), verifies community trust ratings (`98%`), and offers both live target and sanitized defanged links.
-
-![Clean Verdict](docs/screenshots/clean_verdict.png)
+![MASK Live Web Application](docs/screenshots/hero_view.png)
 
 ---
 
-### 3. Phishing Vector Detection & Defanged Sanitization
-> Instantly identifies credential harvesting campaigns, spoofed brand routing, and generates safe defanged formats (`hxxps[://]...[.]com`) for secure incident response.
+### 2. Verified Clean Domain Result (0–100 Circular Risk Gauge)
+> Analyzes trusted domains, computes instantaneous risk indices (`2/100`), validates high community trust ratings (`98%`), renders multi-engine green consensus, and delivers both safe navigation links and defanged formats.
 
-![Phishing Verdict](docs/screenshots/phishing_verdict.png)
+![Clean Verdict & Risk Gauge](docs/screenshots/clean_verdict.png)
+
+---
+
+### 3. Phishing Vector Detection & Defanged Link Sanitization
+> Instantly identifies credential harvesting campaigns, spoofed brand routing, and generates safe defanged formats (`hxxps[://]...[.]com`) alongside a high-severity `98/100` risk gauge warning.
+
+![Phishing Verdict & Sanitization](docs/screenshots/phishing_verdict.png)
 
 ---
 
 ### 4. Network & Host Infrastructure Telemetry
-> Unpacks server IP resolution, Autonomous System Number (ASN) routing (e.g. Cloudflare, AWS, M247), server geolocation, and cryptographic SSL/TLS cipher suites.
+> Unpacks resolved server IP addresses (`185.220.196.116`), Autonomous System Number (ASN) routing (`AS9009 M247 Europe Ltd`), server geolocation (`Bucharest, Romania`), open ports, and cryptographic SSL/TLS cipher suite audits.
 
-![Network Telemetry](docs/screenshots/network_infrastructure.png)
+![Network & Host Telemetry](docs/screenshots/network_infrastructure.png)
 
 ---
 
-### 5. SOC Advisory Playbook & MITRE ATT&CK® Mapping
-> Maps threats directly to MITRE ATT&CK techniques (`T1566.002 Spearphishing Link`, `T1056.001 Input Capture`, `T1204.001 Malicious Link Click`) and outputs end-user/SecOps playbooks.
+### 5. Deep Lexical Forensics & Shannon Entropy Breakdown
+> Calculates Shannon entropy (`4.08 bits/char`) to detect domain generation algorithms (DGA), evaluates path depth, hostname length, digit/letter ratios, and flags suspicious credential tokens.
 
-![SOC & MITRE Playbook](docs/screenshots/soc_mitre_playbook.png)
+![Lexical Forensics & Entropy](docs/screenshots/lexical_forensics.png)
+
+---
+
+### 6. SOC Advisory Playbook & MITRE ATT&CK® Mapping
+> Automatically maps detected threat vectors directly to MITRE ATT&CK® techniques (`T1566.002 Spearphishing Link`, `T1056.001 Input Capture`, `T1584.001 Compromise Infrastructure`) with executive summaries and immediate SecOps response playbooks.
+
+![SOC Playbook & MITRE ATT&CK Mapping](docs/screenshots/soc_mitre_playbook.png)
+
+---
+
+### 7. Raw Threat Intelligence Dossier & JSON Export
+> Provides analysts with complete machine-readable forensic intelligence dossiers including full 20-feature extraction arrays, engine verdicts, and 1-click JSON export.
+
+![Raw Intelligence JSON Dossier](docs/screenshots/raw_intelligence.png)
 
 ---
 
@@ -103,7 +121,7 @@ Unlike traditional URL scanners that solely rely on slow or stale blacklists, **
 
 ## 📊 Industry Benchmark Comparison
 
-| Feature | VirusTotal | URLVoid | Cisco Talos | **MASK ThreatRadar** |
+| Feature | VirusTotal | URLVoid | Cisco Talos | **MASK — Malicious URL Detection** |
 | :--- | :---: | :---: | :---: | :---: |
 | **UI Aesthetics** | Utilitarian data tables | 2010s ad-heavy interface | Dense corporate portal | **Ultra-Premium Cyber Command HUD** 🏆 |
 | **Animated Risk Meter** | Basic colored score | Text verdict only | Letter grade (Poor/Good) | **0–100 Luminous SVG Radial Gauge** 🏆 |
@@ -175,6 +193,7 @@ graph TD
 End-to-End-Malicious-URL-Detection-main/
 ├── docs/
 │   └── screenshots/               # High-resolution screenshots for README
+│       ├── vercel_live.png        # Live production screenshot
 │       ├── hero_view.png
 │       ├── clean_verdict.png
 │       ├── phishing_verdict.png
@@ -217,7 +236,7 @@ End-to-End-Malicious-URL-Detection-main/
 
 ---
 
-## 🚀 Getting Started & Installation
+## 🚀 Getting Started & Local Setup
 
 ### Prerequisites
 - **Node.js** (v16.x or higher)
@@ -253,7 +272,7 @@ python app.py
 ```
 *The backend API will start at `http://localhost:5000`.*
 
-> **Note**: Even if the backend is not running, the application will automatically fall back to its internal client-side ML engine (`urlClassifier.js`), ensuring full offline and serverless functionality.
+> **Note**: Even if the backend is not running, the application will automatically fall back to its internal client-side ML engine (`urlClassifier.js`), ensuring full offline and serverless functionality on Vercel.
 
 ---
 
@@ -328,5 +347,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <p align="center">
   <b>Built with ❤️ by Mayur Murarka</b><br />
-  <sub>Autonomous Zero-Trust Cyber Threat Intelligence</sub>
+  <sub>MASK — Autonomous Zero-Trust Cyber Threat Intelligence</sub>
 </p>
