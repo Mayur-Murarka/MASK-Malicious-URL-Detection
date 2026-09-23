@@ -13,7 +13,9 @@ root.render(
     <Particle />
     <ChakraProvider theme={theme}>
       <ColorModeScript />
-      <App />
+      <div className="app-content-wrapper">
+        <App />
+      </div>
     </ChakraProvider>
   </div>,
 );

@@ -5,9 +5,9 @@ import InputContainer from './InputContainer';
 
 function Home() {
   return (
-    <Container maxW="container.xl" padding="20px 0px  40px 20px">
+    <Container maxW="1180px" px={[4, 6]} py={[5, 8]}>
       <Header />
-      <Box marginTop={['60px', '120px']} paddingRight="10px">
+      <Box mt={[3, 5]}>
         <InputContainer />
       </Box>
     </Container>

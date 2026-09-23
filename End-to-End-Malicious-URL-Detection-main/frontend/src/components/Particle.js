@@ -52,13 +52,13 @@ function Particle() {
           },
           particles: {
             color: {
-              value: '#00000',
+              value: '#38bdf8',
             },
             links: {
-              color: '#ffffff',
-              distance: 120,
+              color: '#7dd3fc',
+              distance: 125,
               enable: true,
-              opacity: 0.8,
+              opacity: 0.5,
               width: 1,
             },
             collisions: {
