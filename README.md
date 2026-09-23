@@ -52,35 +52,35 @@ Unlike traditional URL scanners that solely rely on slow or stale blacklists, **
 ### 1. Minimalist Floating Navbar & Hero Omnibar
 > Sleek floating command console with live protocol indicators (`HTTPS` with padlock vs `HTTP` plaintext), clipboard paste shortcut, and pre-configured quick sample capsules.
 
-![Hero View](../docs/screenshots/hero_view.png)
+![Hero View](docs/screenshots/hero_view.png)
 
 ---
 
 ### 2. Verified Clean Domain Result (0-100 Risk Gauge)
 > Analyzes clean domains, calculates risk indices (`2/100`), verifies community trust ratings (`98%`), and offers both live target and sanitized defanged links.
 
-![Clean Verdict](../docs/screenshots/clean_verdict.png)
+![Clean Verdict](docs/screenshots/clean_verdict.png)
 
 ---
 
 ### 3. Phishing Vector Detection & Defanged Sanitization
 > Instantly identifies credential harvesting campaigns, spoofed brand routing, and generates safe defanged formats (`hxxps[://]...[.]com`) for secure incident response.
 
-![Phishing Verdict](../docs/screenshots/phishing_verdict.png)
+![Phishing Verdict](docs/screenshots/phishing_verdict.png)
 
 ---
 
 ### 4. Network & Host Infrastructure Telemetry
 > Unpacks server IP resolution, Autonomous System Number (ASN) routing (e.g. Cloudflare, AWS, M247), server geolocation, and cryptographic SSL/TLS cipher suites.
 
-![Network Telemetry](../docs/screenshots/network_infrastructure.png)
+![Network Telemetry](docs/screenshots/network_infrastructure.png)
 
 ---
 
 ### 5. SOC Advisory Playbook & MITRE ATT&CK® Mapping
 > Maps threats directly to MITRE ATT&CK techniques (`T1566.002 Spearphishing Link`, `T1056.001 Input Capture`, `T1204.001 Malicious Link Click`) and outputs end-user/SecOps playbooks.
 
-![SOC & MITRE Playbook](../docs/screenshots/soc_mitre_playbook.png)
+![SOC & MITRE Playbook](docs/screenshots/soc_mitre_playbook.png)
 
 ---
 
