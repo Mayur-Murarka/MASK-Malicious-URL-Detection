@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mayur-Murarka/End-to-End-Malicious-URL-Detection-main/main/docs/screenshots/hero_view.png" alt="MASK Malicious URL Detection Banner" width="100%" />
+  <img src="docs/screenshots/hero_view.png" alt="MASK Malicious URL Detection Banner" width="100%" />
 </p>
 
 <h1 align="center">🛡️ MASK - Malicious URL Detection</h1>

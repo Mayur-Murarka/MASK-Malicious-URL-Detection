@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mayur-Murarka/End-to-End-Malicious-URL-Detection-main/main/docs/screenshots/hero_view.png" alt="MASK Malicious URL Detection Banner" width="100%" />
+  <img src="../docs/screenshots/hero_view.png" alt="MASK Malicious URL Detection Banner" width="100%" />
 </p>
 
 <h1 align="center">🛡️ MASK - Malicious URL Detection</h1>
@@ -56,49 +56,49 @@ Unlike traditional URL scanners that solely rely on slow or stale blacklists, **
 ### 1. Live Web Application Interface & Command Console
 > Futuristic floating cyber command HUD featuring real-time protocol detection (`HTTPS` padlock vs unencrypted `HTTP`), instant clipboard paste omnibar, live threat metrics, and one-click quick sample payloads.
 
-![MASK Live Web Application](docs/screenshots/hero_view.png)
+![MASK Live Web Application](../docs/screenshots/hero_view.png)
 
 ---
 
 ### 2. Verified Clean Domain Result (0–100 Circular Risk Gauge)
 > Analyzes trusted domains, computes instantaneous risk indices (`2/100`), validates high community trust ratings (`98%`), renders multi-engine green consensus, and delivers both safe navigation links and defanged formats.
 
-![Clean Verdict & Risk Gauge](docs/screenshots/clean_verdict.png)
+![Clean Verdict & Risk Gauge](../docs/screenshots/clean_verdict.png)
 
 ---
 
 ### 3. Phishing Vector Detection & Defanged Link Sanitization
 > Instantly identifies credential harvesting campaigns, spoofed brand routing, and generates safe defanged formats (`hxxps[://]...[.]com`) alongside a high-severity `98/100` risk gauge warning.
 
-![Phishing Verdict & Sanitization](docs/screenshots/phishing_verdict.png)
+![Phishing Verdict & Sanitization](../docs/screenshots/phishing_verdict.png)
 
 ---
 
 ### 4. Network & Host Infrastructure Telemetry
 > Unpacks resolved server IP addresses (`185.220.196.116`), Autonomous System Number (ASN) routing (`AS9009 M247 Europe Ltd`), server geolocation (`Bucharest, Romania`), open ports, and cryptographic SSL/TLS cipher suite audits.
 
-![Network & Host Telemetry](docs/screenshots/network_infrastructure.png)
+![Network & Host Telemetry](../docs/screenshots/network_infrastructure.png)
 
 ---
 
 ### 5. Deep Lexical Forensics & Shannon Entropy Breakdown
 > Calculates Shannon entropy (`4.08 bits/char`) to detect domain generation algorithms (DGA), evaluates path depth, hostname length, digit/letter ratios, and flags suspicious credential tokens.
 
-![Lexical Forensics & Entropy](docs/screenshots/lexical_forensics.png)
+![Lexical Forensics & Entropy](../docs/screenshots/lexical_forensics.png)
 
 ---
 
 ### 6. SOC Advisory Playbook & MITRE ATT&CK® Mapping
 > Automatically maps detected threat vectors directly to MITRE ATT&CK® techniques (`T1566.002 Spearphishing Link`, `T1056.001 Input Capture`, `T1584.001 Compromise Infrastructure`) with executive summaries and immediate SecOps response playbooks.
 
-![SOC Playbook & MITRE ATT&CK Mapping](docs/screenshots/soc_mitre_playbook.png)
+![SOC Playbook & MITRE ATT&CK Mapping](../docs/screenshots/soc_mitre_playbook.png)
 
 ---
 
 ### 7. Raw Threat Intelligence Dossier & JSON Export
 > Provides analysts with complete machine-readable forensic intelligence dossiers including full 20-feature extraction arrays, engine verdicts, and 1-click JSON export.
 
-![Raw Intelligence JSON Dossier](docs/screenshots/raw_intelligence.png)
+![Raw Intelligence JSON Dossier](../docs/screenshots/raw_intelligence.png)
 
 ---
 
